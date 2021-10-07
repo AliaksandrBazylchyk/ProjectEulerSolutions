@@ -1,10 +1,10 @@
 products_arr = []
 arr = (1..9).to_a
-arr_m = []
+
 
 (1..9999).each do |multiplicand|
   (1..9999).each do |multiplier|
-    arr_m.clear
+    arr_m=[]
     product = multiplicand * multiplier
 
     arr_m << multiplicand.digits
